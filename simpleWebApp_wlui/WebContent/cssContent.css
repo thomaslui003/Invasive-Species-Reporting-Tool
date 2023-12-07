@@ -1,0 +1,45 @@
+@charset "UTF-8";
+​
+body{
+	background-color: #f0f0f0;
+	
+	font-family: Arial, sans-serif;
+}
+​
+h1{
+	text-align: center;
+}
+​
+form{
+	
+    background-color: #000;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+#submitButton{
+            background-color: #2ecc71;
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px;
+            width: 33%;
+            
+        }
+        
+#insertBackButton{
+	background-color: #f1828d;
+	border: none;
+	border-radius: 30px;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	width: 33%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+       
+}
