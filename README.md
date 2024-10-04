@@ -8,7 +8,7 @@ This web application allows users to report and track invasive species in variou
 
 The app is built using the MVC architecture, with JSP and Servlets handling the backend logic and database interactions. The backend connects to a **PostgreSQL database** using a **JDBC connection**. The frontend is constructed using HTML, CSS, and JavaScript to provide a simple and functional user interface.
 
-**Login Authentication**: User authentication is implemented with encrypted passwords using the **SHA-256** hashing algorithm, ensuring secure storage of user credentials.
+**Login Authentication**: User authentication is implemented with encrypted passwords using the **SHA-256** hashing algorithm, ensuring secure storage of user credentials. Additionally, role-based access control ensures that users can only modify or delete their own reports, while admins have broader access to all reports.
 
 ## Features
 
@@ -100,9 +100,8 @@ Before running the application, ensure you have the following installed:
    ```bash
    mvn test
 
-### Future Enhancements  
+### Future Enhancements:
    
-   Implement user authentication with role-based access control (e.g., admin vs regular user).  
-   Add map integration for more intuitive location reporting.  
-   Improve UI/UX with responsive design.
+   - Add map integration for more intuitive location reporting.  
+   - Improve UI/UX with responsive design.
 
