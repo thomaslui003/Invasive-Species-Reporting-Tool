@@ -72,9 +72,9 @@ Before running the application, ensure you have the following installed:
 2. **Set Up PostgreSQL Database (local)**:
 
    Create a new database** in PostgreSQL (e.g., `invasive_species_db`).
-   **Run the provided SQL script** located at `/sql/schema.sql` to create the necessary tables.
+   **Run the provided SQL script** located at `database/sql/base-ddl.sql` and `sql/base-ddl.sql` to create the necessary tables.
 
-3. **Configure Database Connection**:
+4. **Configure Database Connection**:
 
    Update the database connection details in `src/main/resources/db.properties`:
    ```properties
