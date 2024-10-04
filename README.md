@@ -1,6 +1,6 @@
 # New Invasive Species Reporting Tool
 
-![App Screenshot](insert-image-url-here)
+![App Screenshot](https://github.com/thomaslui003/Invasive-Species-Reporting-Tool-/blob/main/simpleWebApp_wlui/interface.jpg)
 
 ## Overview
 
