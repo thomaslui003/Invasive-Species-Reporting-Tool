@@ -49,7 +49,6 @@ This is the form users fill out when reporting a new invasive species:
 
 ![Report Form Screenshot](insert-image-url-here)
 
-> **Note**: To add your own screenshots, first, upload the images to your GitHub repository, then replace the `insert-image-url-here` with the direct URLs of those images.
 
 ## How to Run
 
@@ -71,7 +70,7 @@ Before running the application, ensure you have the following installed:
 
 2. **Set Up PostgreSQL Database (local)**:
 
-   Create a new database** in PostgreSQL (e.g., `invasive_species_db`).
+   Create a new database** in PostgreSQL (e.g., `invasive_species_db`).  
    **Run the provided SQL script** located at `database/sql/base-ddl.sql` and `sql/base-data.sql` to create the necessary tables.
 
 4. **Configure Database Connection**:
@@ -81,3 +80,29 @@ Before running the application, ensure you have the following installed:
    db.url=jdbc:postgresql://localhost:5432/invasive_species_db
    db.username=your_db_username
    db.password=your_db_password
+
+5. **Build the Project**:
+
+   Use Maven to build the project:
+   ```bash
+   mvn clean install
+
+7. **Build the Project**:
+
+   Deploy to Apache Tomcat  
+   Copy the generated WAR file (target/invasive-species-reporting-tool.war) to the webapps folder of your Tomcat installation.  
+   Start Tomcat and navigate to http://localhost:8080/invasive-species-reporting-tool.  
+
+8. **Run Tests**:
+
+   To run the Selenium and JUnit tests:
+
+   ```bash
+   mvn test
+
+### Future Enhancements  
+   
+   Implement user authentication with role-based access control (e.g., admin vs regular user).  
+   Add map integration for more intuitive location reporting.  
+   Improve UI/UX with responsive design.
+
