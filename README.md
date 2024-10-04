@@ -8,6 +8,8 @@ This web application allows users to report and track invasive species in variou
 
 The app is built using the MVC architecture, with JSP and Servlets handling the backend logic and database interactions. The frontend is constructed using HTML, CSS, and JavaScript to provide a simple and functional user interface.
 
+**Login Authentication**: User authentication is implemented with encrypted passwords using the **SHA-256** hashing algorithm, ensuring secure storage of user credentials.
+
 ## Features
 
 - **CRUD Operations**: Users can create, view, update, and delete reports of invasive species.
