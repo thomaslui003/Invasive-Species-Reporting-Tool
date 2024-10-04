@@ -70,8 +70,8 @@ Before running the application, ensure you have the following installed:
 
 2. **Set Up PostgreSQL Database (local)**:
 
-   Create a new database** in PostgreSQL (e.g., `invasive_species_db`).  
-   **Run the provided SQL script** located at `database/sql/base-ddl.sql` and `sql/base-data.sql` to create the necessary tables.
+   - Create a new database** in PostgreSQL (e.g., `invasive_species_db`).  
+   - **Run the provided SQL script** located at `database/sql/base-ddl.sql` and `sql/base-data.sql` to create the necessary tables.
 
 4. **Configure Database Connection**:
 
@@ -89,9 +89,9 @@ Before running the application, ensure you have the following installed:
 
 7. **Build the Project**:
 
-   Deploy to Apache Tomcat  
-   Copy the generated WAR file (target/invasive-species-reporting-tool.war) to the webapps folder of your Tomcat installation.  
-   Start Tomcat and navigate to http://localhost:8080/invasive-species-reporting-tool.  
+   - Deploy to Apache Tomcat  
+   - Copy the generated WAR file (target/invasive-species-reporting-tool.war) to the webapps folder of your Tomcat installation.  
+   - Start Tomcat and navigate to http://localhost:8080/invasive-species-reporting-tool.  
 
 8. **Run Tests**:
 
