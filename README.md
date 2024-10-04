@@ -25,7 +25,7 @@ The app is built using the MVC architecture, with JSP and Servlets handling the 
 - **Database**: PostgreSQL
 - **Web Server**: Apache Tomcat
 - **Testing**: Selenium, JUnit
-- **Version Control**: Git
+- **Version Control**: Mercurial SCM
 
 ## Project Structure
 
